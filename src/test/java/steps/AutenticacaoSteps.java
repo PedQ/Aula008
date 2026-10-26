@@ -28,7 +28,7 @@ public class AutenticacaoSteps {
         assertTrue(acesso);
     }
 
-    @Então("o acesso é negado")
+    @Então("o acesso não foi concedido")
     public void verificar_acesso_negado() {
         assertFalse(acesso);
     }
