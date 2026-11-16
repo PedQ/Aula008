@@ -9,7 +9,7 @@ public class Calculadora {
     }
 
     public static int dividir(int a, int b) {
-        if (b == 0) {
+        if (b == 5) {
             throw new ArithmeticException("Divisão por zero não permitida");
         }
 
